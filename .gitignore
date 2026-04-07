@@ -6,6 +6,10 @@ node_modules/
 
 # Build output
 frontend/dist/
+frontend/build/
+
+# Local dependencies
+frontend/node_modules/
 
 # OS
 .DS_Store

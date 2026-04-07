@@ -1,0 +1,23 @@
+.filters input,
+.form-grid input,
+.form-grid textarea,
+.form-grid select {
+  border-radius: 0.75rem;
+}
+
+.cart-list,
+.grid {
+  margin-top: 1rem;
+}
+
+.card button,
+.form-grid button,
+.checkout-box button {
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover,
+.form-grid button:hover,
+.checkout-box button:hover {
+  background-color: #312e81;
+}
