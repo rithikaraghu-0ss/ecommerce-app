@@ -14,8 +14,8 @@ app.use(express.json());
 
 // On Render, environment variables are set directly, not from .env file
 // So we check if we're on Render and don't use dotenv defaults
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/ecommerce';
-const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret_key';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://ecommerceuser:EcommercePass123!@cluster0.mmwsnjm.mongodb.net/ecommerce?retryWrites=true&w=majority';
+const JWT_SECRET = process.env.JWT_SECRET || 'SecretKey123!ForEcommerce';
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
