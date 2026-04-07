@@ -14,11 +14,11 @@
 ## Frontend
 
 1. Open `frontend` in terminal.
-2. Copy `.env.example` to `.env` if you want to override the API URL.
+2. Copy `frontend/.env.example` to `frontend/.env` if you want to override the API URL.
 3. Run:
    - `npm install`
-   - `npm run dev`
-4. Open the Vite URL shown in terminal.
+   - `npm start`
+4. Open `http://localhost:3000` in your browser.
 
 ## Deployment
 

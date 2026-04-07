@@ -63,15 +63,15 @@ JWT_SECRET=your_super_secret_jwt_key_here_12345
 1. Click "Add New..." → "Project"
 2. Import Git Repository → select `ecommerce-app`
 3. Configure:
-   - **Framework Preset:** Vite
+   - **Framework Preset:** Create React App
    - **Root Directory:** `frontend`
    - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
+   - **Output Directory:** `build`
 
 ### C. Add Environment Variables
 Click "Environment Variables" and add:
 ```
-VITE_API_BASE=https://ecommerce-backend.onrender.com
+REACT_APP_API_BASE=https://ecommerce-backend.onrender.com
 ```
 
 (Replace with your actual Render backend URL from Step 2)
