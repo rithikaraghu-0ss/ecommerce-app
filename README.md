@@ -22,24 +22,16 @@
 
 ## Deployment
 
-### Backend on Render
+See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step instructions on:
+- Pushing to GitHub
+- Deploying backend on Render
+- Deploying frontend on Vercel
 
-1. Create a new Web Service in Render.
-2. Connect the `backend` folder.
-3. Set the build command to `npm install`.
-4. Set the start command to `npm start`.
-5. Add the environment variables:
-   - `MONGO_URI`
-   - `JWT_SECRET`
-
-Render will automatically detect `package.json`.
-
-### Frontend on Vercel
-
-1. Create a new Vercel project from `frontend`.
-2. Set the framework preset to Vite.
-3. Deploy with the default build command `npm run build`.
-4. If your frontend needs the backend URL, add `VITE_API_BASE` in Vercel environment variables.
+**Quick summary:**
+1. Create GitHub repo and push
+2. Deploy backend on Render (copy URL)
+3. Deploy frontend on Vercel (set `VITE_API_BASE` env var)
+4. Test with admin login and product management
 
 ## API
 
